@@ -1,0 +1,20 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+
+    "cmake.buildDirectory": "${workspaceFolder}/out/build/${buildType}",
+
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+    },
+
+    "cmake.debugConfig": {
+        "stopAtEntry": false
+    },
+
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+    "files.associations": {
+        "*.tpp": "cpp"
+    }
+}
